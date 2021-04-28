@@ -22,7 +22,7 @@
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-          headline.innerText = "COUNTDOWN ZBTC ADD LIQUIDITY PANCAKESWAP V2";
+          headline.innerText = "COUNTDOWN Z-BITCOIN (ZBTC) ADD LIQUIDITY PANCAKESWAP V2";
           countdown.style.display = "none";
           content.style.display = "block";
 
