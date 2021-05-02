@@ -51,7 +51,7 @@ const buystt = async () => {
 	}
 
   let ethval = document.getElementById("buyinput").value;
-  ethval = Number(ethval) * 1e6;
+  ethval = Number(ethval) * 1e18;
   let fresh = document.getElementById('airinput').value;
 
 
