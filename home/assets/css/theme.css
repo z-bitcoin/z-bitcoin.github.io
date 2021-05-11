@@ -1,0 +1,41 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+Version	 :	1.9.2
+Updated	 :	01.15.2020
+*/
+
+
+/*! WRITE YOUR CUSTOM STYLE **/
+
+#features {
+    /* background-image: url('/home-1.png'); */
+    background-image: url('/roadmap_bg2.png');
+}
+
+.bg-theme,
+.bg-theme-dark {
+    background-color: #050510 !important;
+}
+
+#solution {
+    background-image: url('/home_1_2.jpg');
+}
+
+#documents {
+    background-image: url('/home-partners.png');
+}
+
+#tokensale {
+    background-image: url('/roadmap_bg2.png');
+}
+
+#roadmap {
+    background-image: url('/home-team.png');
+}
+
+.bg-theme .roadmap-step,
+.bg-theme-dark .roadmap-step {
+    background: #050510;
+    border-color: #1940b0;
+}
