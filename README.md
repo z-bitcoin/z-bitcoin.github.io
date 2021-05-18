@@ -14,23 +14,24 @@ Symbol: ZBTC
 Decimals: 0
 
 Total Supply:
-999,999,900,000,000,000 ZBTC
+911,000,000,000,000,000 ZBTC
 
 Holder: 
-8,687 addresses
 
-Blocked: 40 % in 3 years
+17,083 addresses
 
-Buyback & Burned: 503,718,391,234,382 ZBTC
+Blocked: 	54.8298% in 3 years
 
-For Sale: 49 %
+Buyback & Burned: 504,847,784,276,706 ZBTC
+
+For Sale: 43.9078%
 
 Airdrop: 1 % for 12 million address.
 
 Market Cap:
-$3,629,928,774.54
+$3,182,574,032
 
-Liquidity: $8028
-Blocked LP: 90 % 
+Liquidity: $6,000
+Blocked LP: 99 % 
 
 
