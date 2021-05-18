@@ -66,9 +66,9 @@ const cooldowncheck = async () => {
   let last = await lastblock();
 
 
-  if(blocknumber - last < 50000) {
+  if(blocknumber - last < 5) {
     console.log(blocknumber, last);
-    let waittime = 50000 + last - blocknumber;
+    let waittime = 5 + last - blocknumber;
     console.log(waittime);
     alert("You must wait " + waittime + " blocks before claiming another airdrop");
     return false;
