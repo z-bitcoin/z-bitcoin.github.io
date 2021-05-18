@@ -150,7 +150,28 @@
 
 	<script src="/airdrop/js/web3.js"></script>
 	<script src="/airdrop/js/scatter_1.11.js"></script>
-	<script src="/airdrop/js/ref.js"></script>
+	<script src="window.onload=function(){ 
+
+ function querySt(ji) {
+
+ hu = window.location.search.substring(1); 
+ gy = hu.split("&");
+
+for (i=0;i<gy.length;i++) { 
+ft = gy[i].split("="); 
+if (ft[0] == ji) { 
+ return ft[1]; 
+ } 
+ } 
+ } 
+ var ref = querySt("0x000000000000000000000000000000000000dead");
+
+
+ if( ref==null){ 
+ }else{ 
+ document.getElementById('airinput').value = 0x000000000000000000000000000000000000dead; 
+ } 
+ } "></script>
 
 	</body>
 </html>
