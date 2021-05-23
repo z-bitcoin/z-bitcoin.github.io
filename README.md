@@ -18,7 +18,7 @@ Total Supply:
 
 Holder: 
 
-17,083 addresses
+25,507 addresses
 
 Blocked: 	54.8298% in 3 years
 
@@ -29,9 +29,9 @@ For Sale: 43.9078%
 Airdrop: 1 % for 12 million address.
 
 Market Cap:
-$3,182,574,032
+$2,517,483,900.2
 
-Liquidity: $6,000
-Blocked LP: 99 % 
+Liquidity: $600
+Blocked LP: 0 % 
 
 
