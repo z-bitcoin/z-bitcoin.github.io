@@ -2,7 +2,7 @@
 Telegram Group: https://t.me/zbitcoinspacegroup
 Telegram Channel: https://t.me/zbitcoinspace
 
-ZBITCOIN IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE SMART CHAIN NETWORK.
+ZBITCOIN IS THE FIRST DECENTRALIZED IDO (LUNCHPAD) PLATFORM FOR THE BINANCE SMART CHAIN NETWORK.
 
 
 
@@ -14,24 +14,24 @@ Symbol: ZBTC
 Decimals: 0
 
 Total Supply:
-911,000,000,000,000,000 ZBTC
+1,000,000,000,000,000,000 ZBTC
+
+Buyback & Burned: 100,000,000,000,000,000,000 ZBTC (>10%)
 
 Holder: 
 
-25,507 addresses
+32,545 addresses
 
-Blocked: 	54.8298% in 3 years
+Blocked: 	44.3459 % in 3 years
 
-Buyback & Burned: 504,847,784,276,706 ZBTC
-
-For Sale: 43.9078%
+For Sale: 55.3766 %
 
 Airdrop: 1 % for 12 million address.
 
 Market Cap:
-$2,517,483,900.2
+$724,469,542
 
-Liquidity: $600
-Blocked LP: 0 % 
+Liquidity: $3400
+
 
 
