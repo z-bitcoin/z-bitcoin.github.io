@@ -16,7 +16,7 @@ Decimals: 0
 Total Supply:
 1,000,000,000,000,000,000 ZBTC
 
-Buyback & Burned: 100,000,000,000,000,000,000 ZBTC (>10%)
+Buyback & Burned: 100,000,000,000,000,000 ZBTC (>10%)
 
 Holder: 
 
