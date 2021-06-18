@@ -16,22 +16,22 @@ Decimals: 0
 Total Supply:
 1,000,000,000,000,000,000 ZBTC
 
-Buyback & Burned: 100,000,000,000,000,000 ZBTC (>10%)
+Buyback & Burned: 112,000,000,000,000,000 ZBTC (>11%)
 
 Holder: 
 
-32,545 addresses
+32,728 addresses
 
-Blocked: 	44.3459 % in 3 years
+Blocked: 	43.1461% in 3 years
 
-For Sale: 55.3766 %
+For Sale: 56.1233% %
 
 Airdrop: 1 % for 12 million address.
 
-Market Cap:
-$724,469,542
+Fully diluted Market Cap:
+$700,197,763.3
 
-Liquidity: $3400
+Liquidity: $3233
 
 
 
