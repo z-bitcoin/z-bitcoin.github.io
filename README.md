@@ -20,7 +20,7 @@ Buyback & Burned: 112,000,000,000,000,000 ZBTC (>11%)
 
 Holder: 
 
-32,728 addresses
+32,752 addresses
 
 Blocked: 	43.1461% in 3 years
 
@@ -29,9 +29,9 @@ For Sale: 56.1233% %
 Airdrop: 1 % for 12 million address.
 
 Fully diluted Market Cap:
-$700,197,763.3
+$717,319,544.21
 
-Liquidity: $3233
+Liquidity:15 BNB ($4590)
 
 
 
