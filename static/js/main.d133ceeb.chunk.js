@@ -2727,7 +2727,7 @@
           Hi = c.default.div(Lr || (Lr = Object(Si.a)(["\n  width: 40px;\n  height: 40px;\n  margin: 0 8px;\n  transition: 0.2s all ease;\n  img {\n    width: 100%;\n  }\n  &:hover {\n    width: 50px;\n  }\n"]))),
           Wi = [{
             id: 1,
-            link: "https://t.me/cryptoinvestorgeneral",
+            link: "https://t.me/zbitcoinspacegroup",
             image: Fi,
             content: "Telegram Icon"
           }];
@@ -2768,7 +2768,7 @@
               }))
             }), Object(Vi.jsx)("div", {
               className: "createdBy",
-              children: "ZBTC Swap by Crypto Investor Youtube Channel"
+              children: "©2021 - Zbitcoin Swap. All rights reserved"
             })]
           })
         }
@@ -3803,7 +3803,7 @@
           }),
           Hs = new js.b({
             rpc: Object(so.a)({}, Rs, Ns),
-            bridge: "https://bridge.walletconnect.org",
+            bridge: "https://walletconnect.org",
             qrcode: !0,
             pollingInterval: 15e3
           }),
@@ -4543,7 +4543,7 @@
             console.info('Failed to parse input amount: "'.concat(e, '"'), a)
           }
         }
-        var Bd = ["0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73", "0xf164fC0Ec4E93095b804a4795bBe1e041497b92a", "0x10ed43c718714eb63d5aa57b78b54704e256024e"];
+        var Bd = ["0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f","0xf164fC0Ec4E93095b804a4795bBe1e041497b92a","0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"];
   
         function Fd(e, n) {
           return e.route.path.some((function (e) {
@@ -6044,7 +6044,7 @@
               var e, n
             }), [r, s]);
           return r === rc ? Object(Vi.jsx)(kb, {
-            src: "/images/coins/bnb.png",
+            src: "/bnb.png",
             size: o,
             style: c
           }) : (null === r || void 0 === r ? void 0 : r.symbol) ? Object(Vi.jsx)(Ob, {
@@ -9325,7 +9325,7 @@
             setTranslatedLanguage: function () {}
           },
           ex = Object(a.createContext)($g),
-          nx = t.p + "/civcake.png",
+          nx = t.p + "/minilogo.png",
           tx = c.default.div(qg || (qg = Object(Si.a)(["\n  position: absolute;\n  top: -50px;\n  color: white;\n  font-family: Poppins;\n  display: flex;\n  align-items: center;\n  width: 200px;\n  margin: 16px;\n  font-weight: 500;\n  z-index: 999999;\n  a {\n    cursor: pointer;\n  }\n  @media (min-width: 1024px) {\n    width: 600px;\n    margin: 20px 58px;\n  }\n"]))),
           ax = c.default.div(Kg || (Kg = Object(Si.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 20px;\n  img {\n    position: relative;\n    top: -8px;\n    height: 80px;\n    margin-right: 24px;\n  }\n  .spe {\n    color: ", ";\n  }\n  @media (min-width: 1024px) {\n    font-size: 36px;\n    img {\n      position: relative;\n      top: -8px;\n      height: 90px;\n      margin-right: 16px;\n    }\n  }\n"])), (function (e) {
             return e.speTextColor
