@@ -5424,7 +5424,7 @@
                   children: "Waiting for confirmation"
                 }), Object(Vi.jsx)(df, {
                   children: Object(Vi.jsx)(bf, {
-                    src: "/images/blue-loader.svg",
+                    src: "/minilogo.png",
                     alt: "loader",
                     size: "90px"
                   })
