@@ -3470,7 +3470,7 @@
           Fc = t(29),
           Nc = t(14),
           Rc = "0x10ed43c718714eb63d5aa57b78b54704e256024e",
-          Pc = new ic(ro.MAINNET, "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82", 18, "CAKE", "PancakeSwap Token"),
+          Pc = new ic(ro.MAINNET, "0x21c1c22c09990c1521d1a27852beb005f7d6601e", 0, "ZBTC", "ZBITCOIN.SPACE"),
           Vc = new ic(ro.MAINNET, "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", 18, "WBNB", "Wrapped BNB"),
           Zc = new ic(ro.MAINNET, "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3", 18, "DAI", "Dai Stablecoin"),
           zc = new ic(ro.MAINNET, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", 18, "BUSD", "Binance USD"),
