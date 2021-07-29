@@ -2799,7 +2799,7 @@
             children: [Object(Vi.jsx)("div", {
               children: "Current $ZBTC Price:"
             }), Object(Vi.jsxs)(to, {
-              children: ["1 = $", n.toFixed(5)]
+              children: ["1B = $", n.toFixed(5)]
             })]
           })
         },
@@ -6887,7 +6887,7 @@
           stateMutability: "view",
           type: "function"
         }],
-        Ih = "0xD4763De8F4E499520689ff3F60696D02B38BFC0f",
+        Ih = "0x10ED43C718714eb63d5aA57B78B54704E256024E",
         Th = [{
           constant: !0,
           inputs: [{
