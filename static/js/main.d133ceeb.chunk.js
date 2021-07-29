@@ -78,7 +78,7 @@
       w.defaultProps = {
         color: "text",
         width: "20px",
-        xmlns: "http://www.w3.org/2000/svg",
+        xmlns: " ",
         spin: !1
       };
       var k, E = function (e) {
@@ -2208,7 +2208,7 @@
             m: "16px",
             textAlign: "center",
             p: "16px"
-          }, "Use WalletConnect if opening CIV INU Swap in your Mobile Browsers/Mobile App") : null)
+          }, "Use WalletConnect if opening ZBTC Swap in your Mobile Browsers/Mobile App") : null)
         }),
         Fr = Object(c.default)(A).attrs({
           role: "button"
@@ -2714,13 +2714,13 @@
         Ai = t(13),
         Si = t(7),
         Ui = t(18),
-        Mi = t.p + "static/media/facebook.8ab44a82.svg",
-        Di = t.p + "static/media/discord.0ac22ae6.svg",
-        Bi = t.p + "static/media/instagram.6948ea4b.svg",
-        Fi = t.p + "static/media/telegram.d236bf99.svg",
-        Ni = t.p + "static/media/twitter.642a257c.svg",
-        Ri = t.p + "static/media/reddit.01b2014d.svg",
-        Pi = t.p + "static/media/youtube.2386c8f9.svg",
+        Mi = t.p + "/facebook.8ab44a82.svg",
+        Di = t.p + "/discord.0ac22ae6.svg",
+        Bi = t.p + "/instagram.6948ea4b.svg",
+        Fi = t.p + "/telegram.d236bf99.svg",
+        Ni = t.p + "/twitter.642a257c.svg",
+        Ri = t.p + "/reddit.01b2014d.svg",
+        Pi = t.p + "/youtube.2386c8f9.svg",
         Vi = t(1),
         Zi = c.default.div(Ir || (Ir = Object(Si.a)(["\n  position: relative;\n  bottom: 40px;\n  display: none;\n  flex-direction: column;\n  width: 100%;\n  color: white;\n  text-align: center;\n  padding: 24px 0;\n  .createdBy {\n    font-family: Poppins;\n    font-size: 18px;\n    opacity: 0.7;\n  }\n  @media (min-width: 1024px) {\n    display: flex;\n  }\n"]))),
         zi = c.default.div(Tr || (Tr = Object(Si.a)(["\n  display: flex;\n  justify-content: center;\n  height: 60px;\n  width: 100%;\n"]))),
@@ -2768,7 +2768,7 @@
             }))
           }), Object(Vi.jsx)("div", {
             className: "createdBy",
-            children: "CIV INU Swap by Crypto Investor Youtube Channel"
+            children: "©2021 - Zbitcoin . All rights reserved"
           })]
         })
       }
@@ -2799,7 +2799,7 @@
             children: [Object(Vi.jsx)("div", {
               children: "Current $ZBTC Price:"
             }), Object(Vi.jsxs)(to, {
-              children: ["1M = $", n.toFixed(5)]
+              children: ["1 = $", n.toFixed(5)]
             })]
           })
         },
@@ -3463,7 +3463,7 @@
           }, e
         }(),
         Mc = ((Lc = {})[ro.MAINNET] = {
-          "0xD4763De8F4E499520689ff3F60696D02B38BFC0f": 9
+          "0x21c1c22c09990c1521d1a27852beb005f7d6601e": 0
         }, t(443)),
         Dc = t(22),
         Bc = t(234),
@@ -3803,14 +3803,14 @@
         }),
         Hs = new js.b({
           rpc: Object(so.a)({}, Rs, Ns),
-          bridge: "https://bridge.walletconnect.org",
+          bridge: "https://walletconnect.org",
           qrcode: !0,
           pollingInterval: 15e3
         }),
         Ws = (new Cs.a({
           url: Ns,
-          appName: "Uniswap",
-          appLogoUrl: "https://mpng.pngfly.com/20181202/bex/kisspng-emoji-domain-unicorn-pin-badges-sticker-unicorn-tumblr-emoji-unicorn-iphoneemoji-5c046729264a77.5671679315437924251569.jpg"
+          appName: " ",
+          appLogoUrl: " "
         }), hs = {}, Object(so.a)(hs, $a.Injected, Zs), Object(so.a)(hs, $a.WalletConnect, Hs), Object(so.a)(hs, $a.BSC, zs), hs);
 
       function qs() {
@@ -4543,7 +4543,7 @@
           console.info('Failed to parse input amount: "'.concat(e, '"'), a)
         }
       }
-      var Bd = ["0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73", "0xf164fC0Ec4E93095b804a4795bBe1e041497b92a", "0x10ed43c718714eb63d5aa57b78b54704e256024e"];
+      var Bd = ["0x10ed43c718714eb63d5aa57b78b54704e256024e"];
 
       function Fd(e, n) {
         return e.route.path.some((function (e) {
@@ -4629,7 +4629,7 @@
 
       function Zd(e) {
         var n, t = Rd(e.inputCurrency),
-          a = Rd("0x96e0b9b682b25193bbed87a954b57de9e31d00d6");
+          a = Rd("0x21c1c22c09990c1521d1a27852beb005f7d6601e");
         t === a && ("string" === typeof e.outputCurrency ? t = "" : a = "");
         var r, i = function (e) {
           return "string" !== typeof e ? null : ss(e) || (Pd.test(e) || Vd.test(e) ? e : null)
@@ -4704,16 +4704,16 @@
             children: void 0 !== a && Object(Vi.jsxs)(Vi.Fragment, {
               children: [Object(Vi.jsxs)(Yd, {
                 children: [Object(Vi.jsx)("div", {
-                  children: "Wallet $CIV INU Balance"
+                  children: "Wallet $ZBTC Balance"
                 }), Object(Vi.jsxs)(Xd, {
                   children: [function (e) {
                     var n;
                     return e < 1e3 ? n = e : e >= 1e3 && e < 1e6 ? n = "".concat((e / 1e3).toFixed(1), " K") : e >= 1e6 && e < 1e9 ? n = "".concat((e / 1e6).toFixed(1), " M") : e >= 1e9 && e < 1e12 ? n = "".concat((e / 1e9).toFixed(1), " B") : e >= 1e12 && (n = "".concat((e / 1e12).toFixed(1), " T")), n
-                  }(a), " Tokens"]
+                  }(a), "Tokens"]
                 })]
               }), Object(Vi.jsxs)(Yd, {
                 children: [Object(Vi.jsx)("div", {
-                  children: "Your $CIV INU Value"
+                  children: "Your $ZBTC Value"
                 }), Object(Vi.jsxs)(Xd, {
                   children: ["$ ", (o = (a * +i).toFixed(2), o.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))]
                 })]
@@ -6040,11 +6040,11 @@
           c = e.style,
           s = mb(r instanceof Rl ? r.logoURI : void 0),
           l = Object(a.useMemo)((function () {
-            return r === rc ? [] : r instanceof ic ? r instanceof Rl ? [].concat(Object(Fc.a)(s), ["/images/coins/".concat(null !== (n = null === r || void 0 === r ? void 0 : r.address) && void 0 !== n ? n : "token", ".png"), wb(r.address)]) : ["/images/coins/".concat(null !== (e = null === r || void 0 === r ? void 0 : r.address) && void 0 !== e ? e : "token", ".png"), wb(r.address)] : [];
+            return r === rc ? [] : r instanceof ic ? r instanceof Rl ? [].concat(Object(Fc.a)(s), ["/".concat(null !== (n = null === r || void 0 === r ? void 0 : r.address) && void 0 !== n ? n : "token", ".png"), wb(r.address)]) : ["/images/coins/".concat(null !== (e = null === r || void 0 === r ? void 0 : r.address) && void 0 !== e ? e : "token", ".png"), wb(r.address)] : [];
             var e, n
           }), [r, s]);
         return r === rc ? Object(Vi.jsx)(kb, {
-          src: "/images/coins/bnb.png",
+          src: "/bnb.png",
           size: o,
           style: c
         }) : (null === r || void 0 === r ? void 0 : r.symbol) ? Object(Vi.jsx)(Ob, {
@@ -6887,7 +6887,7 @@
           stateMutability: "view",
           type: "function"
         }],
-        Ih = "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+        Ih = "0xD4763De8F4E499520689ff3F60696D02B38BFC0f",
         Th = [{
           constant: !0,
           inputs: [{
@@ -9325,7 +9325,7 @@
           setTranslatedLanguage: function () {}
         },
         ex = Object(a.createContext)($g),
-        nx = t.p + "static/media/civcake.png",
+        nx = t.p + "https://zbitcoin.space/minilogo.png",
         tx = c.default.div(qg || (qg = Object(Si.a)(["\n  position: absolute;\n  top: -50px;\n  color: white;\n  font-family: Poppins;\n  display: flex;\n  align-items: center;\n  width: 200px;\n  margin: 16px;\n  font-weight: 500;\n  z-index: 999999;\n  a {\n    cursor: pointer;\n  }\n  @media (min-width: 1024px) {\n    width: 600px;\n    margin: 20px 58px;\n  }\n"]))),
         ax = c.default.div(Kg || (Kg = Object(Si.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 20px;\n  img {\n    position: relative;\n    top: -8px;\n    height: 80px;\n    margin-right: 24px;\n  }\n  .spe {\n    color: ", ";\n  }\n  @media (min-width: 1024px) {\n    font-size: 36px;\n    img {\n      position: relative;\n      top: -8px;\n      height: 90px;\n      margin-right: 16px;\n    }\n  }\n"])), (function (e) {
           return e.speTextColor
@@ -9338,11 +9338,11 @@
                 speTextColor: n.speTextColor,
                 children: [Object(Vi.jsx)("img", {
                   src: nx,
-                  alt: "CIV INU Swap logo"
+                  alt: "ZBTC Swap logo"
                 }), Object(Vi.jsxs)("div", {
                   children: [Object(Vi.jsx)("span", {
                     className: "spe",
-                    children: "CIV INU "
+                    children: "ZBTC"
                   }), "Swap"]
                 })]
               })
@@ -9426,11 +9426,11 @@
           U = Object(Ai.a)(S, 2),
           M = (U[0], U[1]);
         Object(a.useEffect)((function () {
-          fetch("https://api.dex.guru/v1/tokens/0x21c1c22c09990c1521d1a27852beb005f7d6601e-bsc").then((function (e) {
+          fetch("https://api.dex.guru/v2/tokens/0x21c1c22c09990c1521d1a27852beb005f7d6601e-bsc").then((function (e) {
             return e.json()
           })).then((function (e) {
             L(e)
-          })), fetch("https://raw.githubusercontent.com/CryptoInvestorPro/CIVSwap/main/civ_swap_background.json").then((function (e) {
+          })), fetch("/background.json").then((function (e) {
             return e.json()
           })).then((function (e) {
             g(e.background[Math.floor(Math.random() * e.background.length)])
