@@ -88,7 +88,7 @@ const getAirdrop2 = async () => {
   }else{
     Swal.fire(
   'Buy Alert',
-  'Buy as low as 0.0005 BNB.',
+  'Buy as low as 0.005 BNB.',
   'error'
 )    
   }
