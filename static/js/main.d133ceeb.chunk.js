@@ -2799,7 +2799,7 @@
               children: [Object(Vi.jsx)("div", {
                 children: "Current $ZBTC Price:"
               }), Object(Vi.jsxs)(to, {
-                children: ["1 = $", n.toFixed(5)]
+                children: ["1M = $", n.toFixed(5)]
               })]
             })
           },
@@ -7991,8 +7991,7 @@
             return e && r ? new gc(e, r.toString()) : void 0
           }), [e, r])
         }
-        var _m, $
-        , eg = Object(Gi.b)("transactions/addTransaction"),
+        var _m, $m, eg = Object(Gi.b)("transactions/addTransaction"),
           ng = Object(Gi.b)("transactions/clearAllTransactions"),
           tg = Object(Gi.b)("transactions/finalizeTransaction"),
           ag = Object(Gi.b)("transactions/checkedTransaction");
@@ -8164,8 +8163,7 @@
             f = null === r ? o : p;
           return Object(a.useMemo)((function () {
             return e && s && o && c ? f ? {
-              state: $
-              .VALID,
+              state: $m.VALID,
               callback: function () {
                 var n = Object(Ts.a)(Es.a.mark((function n() {
                   var t, a, i, c, s, u, p, b, h, m;
@@ -8259,18 +8257,15 @@
               }(),
               error: null
             } : null !== r ? {
-              state: $
-              .INVALID,
+              state: $m.INVALID,
               callback: null,
               error: "Invalid recipient"
             } : {
-              state: $
-              .LOADING,
+              state: $m.LOADING,
               callback: null,
               error: null
             } : {
-              state: $
-              .INVALID,
+              state: $m.INVALID,
               callback: null,
               error: "Missing dependencies"
             }
@@ -8280,9 +8275,7 @@
         }(_m || (_m = {})),
         function (e) {
           e[e.INVALID = 0] = "INVALID", e[e.LOADING = 1] = "LOADING", e[e.VALID = 2] = "VALID"
-        }($
-         || ($
-         = {}));
+        }($m || ($m = {}));
         var dg;
         ! function (e) {
           e[e.NOT_APPLICABLE = 0] = "NOT_APPLICABLE", e[e.WRAP = 1] = "WRAP", e[e.UNWRAP = 2] = "UNWRAP"
@@ -9463,11 +9456,11 @@
             A($i({
               typedValue: "",
               field: Ki.OUTPUT,
-              inputCurrencyId: "BNB",
+              inputCurrencyId: "ZBTC",
               outputCurrencyId: "0xC621Ed88e88FB872c7BCd9c7De555bA84a147a6d",
               recipient: null
             })), M({
-              inputCurrencyId: "BNB",
+              inputCurrencyId: "ZBTC",
               outputCurrencyId: "0xC621Ed88e88FB872c7BCd9c7De555bA84a147a6d"
             })
           }), [A]);
@@ -10476,5 +10469,4 @@
   ]);
 
    
-  
-
+  0xC621Ed88e88FB872c7BCd9c7De555bA84a147a6d
