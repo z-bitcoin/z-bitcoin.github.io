@@ -7991,8 +7991,7 @@
             return e && r ? new gc(e, r.toString()) : void 0
           }), [e, r])
         }
-        var _m, $1, eg 
-        = Object(Gi.b)("transactions/addTransaction"),
+        var _m, $, eg = Object(Gi.b)("transactions/addTransaction"),
           ng = Object(Gi.b)("transactions/clearAllTransactions"),
           tg = Object(Gi.b)("transactions/finalizeTransaction"),
           ag = Object(Gi.b)("transactions/checkedTransaction");
@@ -8164,8 +8163,7 @@
             f = null === r ? o : p;
           return Object(a.useMemo)((function () {
             return e && s && o && c ? f ? {
-              state: $1.VALI
-              D,
+              state: $.VALID,
               callback: function () {
                 var n = Object(Ts.a)(Es.a.mark((function n() {
                   var t, a, i, c, s, u, p, b, h, m;
@@ -8259,18 +8257,15 @@
               }(),
               error: null
             } : null !== r ? {
-              state: $1.INVA
-              LID,
+              state: $.INVALID,
               callback: null,
               error: "Invalid recipient"
             } : {
-              state: $1.LOAD
-              ING,
+              state: $.LOADING,
               callback: null,
               error: null
             } : {
-              state: $1.INVA
-              LID,
+              state: $.INVALID,
               callback: null,
               error: "Missing dependencies"
             }
@@ -8280,9 +8275,7 @@
         }(_m || (_m = {})),
         function (e) {
           e[e.INVALID = 0] = "INVALID", e[e.LOADING = 1] = "LOADING", e[e.VALID = 2] = "VALID"
-        }($1 || (
-            $1 = {}
-        ));
+        }($ || ($ = {}));
         var dg;
         ! function (e) {
           e[e.NOT_APPLICABLE = 0] = "NOT_APPLICABLE", e[e.WRAP = 1] = "WRAP", e[e.UNWRAP = 2] = "UNWRAP"
