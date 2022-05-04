@@ -11,7 +11,8 @@ Decimals: 18
 Total Supply:
 21,000,000 ZBTC
 
-Website: https://zbitcoin.space
+Website: https://z-bitcoin.github.io
+Open in Trust Wallet: https://link.trustwallet.com/open_url?coin_id=60&url=https://z-bitcoin.github.io
 Telegram Group: https://t.me/zbitcoinspacegroup
 Telegram Channel: https://t.me/zbitcoinspace
 
